@@ -1,3 +1,3 @@
 *.npy
-*.h5
+/VGG-16_for_DeepFashion/models/vgg_weights_frozen_pattern.h5
 
