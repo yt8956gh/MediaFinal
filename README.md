@@ -19,16 +19,16 @@ GPU: Tesla K80
 **執行流程**
 ---------------------------------------------
 
-*step 1: Prepressing*
+#step 1: Prepressing
 將「/DeepFashion_package/img」中的影像，依照/DeepFashion_package/Eval中的標籤分為訓練與測試資料，再把檔案讀入Numpy陣列中，存入/data資料夾。
 
 (因為DeepFashion_package/img的檔案太大，無法上傳至Github，這裡不提供相關檔案。)
 
 	
-		python VGG-16_for_DeepFashion/preprocessing.py
+	python VGG-16_for_DeepFashion/preprocessing.py
 	
 
-*step 2: VGG16 Training*
+#step 2: VGG16 Training
 進行訓練。
 
 	
