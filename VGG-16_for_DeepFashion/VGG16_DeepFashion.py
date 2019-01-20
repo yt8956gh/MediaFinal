@@ -39,7 +39,7 @@ def VGG16_category() :
     vgg16 = VGG16(include_top=False, weights='imagenet')
     x = vgg16.output
     x = GlobalAveragePooling2D()(x)
-    x = Dense(50, activation='relu')(x)
+    x = Dense(1000, activation='relu')(x)
     predict = Dense(50, activation='softmax')(x)
 
     # Define input and output of the model
